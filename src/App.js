@@ -1,23 +1,24 @@
-import logo from './logo.svg';
+import Homebanner from './components/Homebanner';
+import Navbar from './components/navbar';
 import './App.css';
+import MetricSliderFeature from './components/MetricSlider_feature';
+import WhyMenterlo from './components/WhyMenterlo';
+import Features from './components/features';
+import Features2 from './components/features2';
+import Cta from './components/cta';
+import Footer from './components/footer';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar />
+      <Homebanner />
+      <MetricSliderFeature />
+      <WhyMenterlo />
+      <Features />
+      <Features2 />
+      <Cta />
+      <Footer />
     </div>
   );
 }
