@@ -98,6 +98,9 @@ const WhyMenterlo = () => {
           <div className='circular_curve'>
 
           </div>
+          <div className='circular_curve2'>
+
+          </div>
 
         </div>
       </div>

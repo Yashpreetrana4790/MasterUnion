@@ -583,27 +583,48 @@ align-items: flex-start;
 
 .mantarlo_section{
   background: linear-gradient(270deg, #012DA3 36.27%, #0896FF 111.28%);
+  position: relative;
 }
 
 .mantarlo_section .whymantarlo_wrapper{
   padding-top: 160px;
-  position: relative;
   padding-left: 100px;
   
+  position: relative;
 }
 
 
 
-/* .whymantarlo_wrapper .circular_curve{
-position: absolute;
-bottom: 0;
-width: 1440px;
-height: 106px;
-flex-shrink: 0;
-border-radius: 1440px;
-background: linear-gradient(90deg, #0786F1 -0.73%, #012DA3 63.23%);
+.whymantarlo_wrapper .circular_curve{
+  top: 0;
+  width: 100%;
+  border-radius: 80%;
+  height: 106px;
+  flex-shrink: 0;
+  position: absolute;
+  border-radius: 1440px;
+  background: linear-gradient(90deg, #ffffff -0.73%, #ffffff 63.23%);
+  border-radius: 50%;
+  transform: translateY(-49px);
+  left: 0;
 
-} */
+}
+
+.whymantarlo_wrapper .circular_curve2{
+  bottom: -50px;
+  width: 100%;
+  border-radius: 80%;
+  height: 106px;
+  flex-shrink: 0;
+  position: absolute;
+  border-radius: 1440px;
+  background: linear-gradient(90deg, #0786F1 -0.73%, #012DA3 63.23%);
+
+
+  border-radius: 50%;
+  left: 0;
+
+}
 
 .whymantarlo_wrapper .whymantarlo_main{
  position: relative;
@@ -632,7 +653,6 @@ background: linear-gradient(90deg, #0786F1 -0.73%, #012DA3 63.23%);
 }
 
 .whymantarlo_main .image_area .img-wrapper {
-  position: relative;
   display: flex;
   align-items: center;
 }
@@ -1036,7 +1056,7 @@ gap: 20px;
 }
 
 
-.cta_wrapper{
+.cta .cta_wrapper{
   padding: 130px 100px;
   display: flex;
   flex-direction: column;
@@ -1044,7 +1064,6 @@ gap: 20px;
   align-items: center;
   justify-content: center;
   z-index: 2;
-  position: relative;
   background-image: cover;
 }
 
@@ -1058,6 +1077,7 @@ gap: 20px;
   align-items: center;
   justify-content: center;
   margin: auto;
+  position: relative;
 
   
   }
@@ -1065,7 +1085,7 @@ gap: 20px;
   .cta_wrapper .curve_cta_wrapper{
 
     top: 0;
-    width: 1585px;
+    width: 100%;
     border-radius: 80%;
     height: 106px;
     flex-shrink: 0;
@@ -1106,7 +1126,6 @@ line-height: 140%; /* 58.8px */
   padding: 0;
   margin: 0;
   cursor: pointer;
-
   display: flex;
   padding: 16px 50px;
   justify-content: center;
