@@ -8,7 +8,7 @@ const MetricSliderFeature = () => {
 
 
   return (
-    <div>
+    <div className='metric'>
       <div className='container metricslider_wrapper'>
         <div className='heading'>
           <div className='main_head_text'>
@@ -68,10 +68,21 @@ const MetricSliderFeature = () => {
       </div>
 
       <div className='carousal '>
-        <Horizontalcard />
-        <Horizontalcard />
-      </div>
+        <Horizontalcard heading="Better Placement Opportunities" para="Boost your Institute’s placement success with less effort by offering
+         students personalized guidance and industry insights. This will help them build valuable networking 
+         connections, 
+        improving their chances for coveted job placements."
+          img="/personbuild.png"
+        />
+        <Horizontalcard
+          heading="Engage Your Alumni Base" para="Leverage your alumni network and get your biggest cheerleaders to mentor students. Tap into their expertise to enhance student’s learning experience and serve as a testament to the programme’s success."
+          img="/nexus.png"
+        />
 
+      </div>
+      <div className='curve_cta_wrapper2'>
+
+      </div>
     </div>
   )
 }

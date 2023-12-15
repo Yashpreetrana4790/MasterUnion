@@ -4,7 +4,6 @@ import '../App.css';
 const WhyMenterlo = () => {
   return (
     <section className='mantarlo_section'>
-
       <div className=''>
         <div className=' whymantarlo_wrapper '>
           <div className='  whymantarlo_header'>
