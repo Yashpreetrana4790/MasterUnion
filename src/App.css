@@ -1489,7 +1489,24 @@ font-size: 14px;
   z-index: 0.3;
   }
 
+  .whymantarlo_header h2{
+    font-size: 30px;
   }
 
+
+  .features_heading h2 {
+
+    font-size: 32px;
+
+  }
+
+  .features_wrapper .head_text_feature {
+    padding-bottom: 40px;
+  }
+
+  .features_wrapper .features_main{
+    gap: 0;
+  }
+}
 
 
