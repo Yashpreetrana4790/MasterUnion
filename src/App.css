@@ -67,7 +67,6 @@ border-radius: 40px;
 border: 1px solid #0896FF;
 background: #FFF;
 padding: 10px 30px;
-
 }
 
 .navbar_wrapper button:hover{
@@ -536,6 +535,7 @@ justify-content: center;
 align-items: center;
 gap: 40px;
 margin-right: 80px;
+font-family: inter;
 }
 
 .footer_wrapper .footer_links .mid p{
@@ -731,8 +731,9 @@ margin-bottom: 16px;
   width: 100%;
 }
 
-.whymantarlo_main .card_area .hovercard_wrapper .text_area .para_for_hovercard p:hover{
+.whymantarlo_main .card_area .hovercard_wrapper .text_area .para_for_hovercard:hover p{
   transition: transform 3s ease-in-out;
+
 
 
 }
@@ -748,6 +749,7 @@ align-items: start;
 gap: 20px;
 background: rgba(255, 255, 255, 0.10);
 backdrop-filter: blur(25px);
+cursor: pointer;
 }
 
 
@@ -1317,6 +1319,15 @@ margin-top: 30px;
     margin-right: 0;
   }
 
+  .footer_wrapper{
+    padding: 40px 50px 0px 50px;
+  }
+  .footer_wrapper .footer_links .mid p{
+    padding-top: 20px;
+    padding-bottom: 20px;
+  
+  font-size: 18px;
+}
   .cta_wrapper .cta_mainHeading{
     font-size: 32px;
 font-style: normal;
@@ -1357,7 +1368,15 @@ line-height: 120%;
 
  @media screen and (max-width: 768px) {
 
+  .carousal{
+    padding: 20px;
+    padding-left: 20px;
+    justify-content: center;
+  }
 
+.features_wrapper .head_text_feature{
+  margin-top: 90px;
+}
    .metricslider_wrapper .percentage_grid {  display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr;
@@ -1369,9 +1388,7 @@ line-height: 120%;
     "."
     ".";
 }
-.whymantarlo_wrapper .whymantarlo_main{
-  padding-bottom: 50px;
-}
+
 
 .Image_wrapper .homebanner_whitecard_p2{
   max-width: 400px;
@@ -1386,11 +1403,93 @@ font-size: 14px;
 
 
 
+
+
+
+.whymantarlo_wrapper {
+  padding: 20px;
+
+}
+
+.cta_wrapper{
+  padding: 20px;
+}
+
+ .features2_wrapper{
+  padding: 80px  20px ;
+
+
+}
+
+.navbar_wrapper {
+  padding: 20px 20px;
+}
+.home_banner_wrapper{
+  display: flex;
+  flex-direction: column;
+  padding: 70px 20px;
+
+}
+
+.features_wrapper{
+
+  padding: 20px 
+
+
+}
+
+
+.mantarlo_section .whymantarlo_wrapper{
+  padding-top: 160px;
+  padding-left: 20px;
+  position: relative;
+  align-items: center;
+}
+
+.metricslider_wrapper {
+
+  padding: 70px 20px ;
+
+}
+
+
+.footer_wrapper{
+  padding: 40px 20px 0px 20px;
+}
+
+
+
+
+
+.whymantarlo_wrapper .whymantarlo_main{
+  padding-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
   }
 
 
-/* @media screen and (max-width: 375px) {
+@media screen and (max-width: 640px) {
+
+    .whymantarlo_wrapper .biggroupedicon img{
+    min-width: 280.81px;
+  min-height:300.994px;
+  top: 5%;
+  left: 0%;
+  opacity: 0.1;
+  z-index: 0.3;
+  }
 
   }
-} */
+
+
 

@@ -4,6 +4,7 @@ import '../App.css';
 const WhyMenterlo = () => {
   return (
     <section className='mantarlo_section'>
+
       <div className=''>
         <div className=' whymantarlo_wrapper '>
           <div className='  whymantarlo_header'>
@@ -43,6 +44,7 @@ const WhyMenterlo = () => {
                     <h2>Offer 1:1 Mentorship Session</h2>
                   </div>
                   <div className='para_for_hovercard'>
+
                     <p>Provide personalised 1:1 sessions with tailored support and individual attention for meaningful progress.</p>
                   </div>
                 </div>
@@ -61,6 +63,7 @@ const WhyMenterlo = () => {
                     <h2>Offer 1:1 Mentorship Session</h2>
                   </div>
                   <div className='para_for_hovercard'>
+
                     <p>Provide personalised 1:1 sessions with tailored support and individual attention for meaningful progress.</p>
                   </div>
                 </div>
@@ -79,6 +82,7 @@ const WhyMenterlo = () => {
                     <h2>Offer 1:1 Mentorship Session</h2>
                   </div>
                   <div className='para_for_hovercard'>
+
                     <p>Provide personalised 1:1 sessions with tailored support and individual attention for meaningful progress.</p>
                   </div>
                 </div>

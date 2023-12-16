@@ -8,6 +8,7 @@ const Navbar = () => {
       <div className='navbar_wrapper'>
         <img src={process.env.PUBLIC_URL + '/logo.svg'} alt='logo' />
         <button >Login</button>
+
       </div>
     </nav>
   )
