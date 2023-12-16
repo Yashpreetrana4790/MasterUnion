@@ -22,7 +22,7 @@ const Features2 = () => {
             <RightArrowCardcomponent />
             <RightArrowCardcomponent />
           </div>
-          <div>
+          <div className='shape_master_img_wrapper'>
             <img src="/master.png" alt='materimage_masterunion' />
           </div>
         </div>

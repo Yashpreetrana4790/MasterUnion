@@ -34,8 +34,7 @@ const Homebanner = () => {
           </div>
         </div>
       </div>
-      <div className='curve'>
-      </div>
+
 
 
 

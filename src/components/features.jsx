@@ -47,7 +47,7 @@ const Features = () => {
           <div className='pointscard_component'>
             <div className='point_number'>
               <div className='pointcircle'>
-                <p>1</p>
+                <p>2</p>
               </div>
             </div>
             <div className='point_heading'>

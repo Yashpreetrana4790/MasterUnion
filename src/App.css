@@ -81,15 +81,17 @@ padding: 10px 30px;
 
 
 .home_banner_wrapper{
-  padding-left: 100px;
-  padding-right: 100px;
+  padding: 60px 100px;
+ 
   display: flex;
+  max-width: 1440px;
+  width: 100%;
+  margin: auto;
   justify-content: center;
   align-items: center;
-  gap : 40px;
+  gap : 70px;
   background-color: #ffffff;
-  padding-top: 60px;
-  padding-bottom: 40px;
+
 }
 
 .home_banner_wrapper > div:first-child {
@@ -278,17 +280,7 @@ left: -70px;
     cursor: pointer;
   }
 
-  .home_banner_wrapper .curve {
-    min-width: 1440px !important;
-    min-height: 106px !important;
-   
-    flex-shrink: 0;
-    border-radius: 1440px;
-    background: red;
-    z-index: 999;
-    transform: translateY(50px)
-  }
-  
+
   .metric{
     position: relative;
     background: var(--white-1, #FAFAFA);
@@ -379,7 +371,6 @@ background: var(--white-2, #F5F5F5);
     grid-template-areas:
       ". . . .";
   
-      align-items: center;
 }
 
 
@@ -687,7 +678,7 @@ line-height: 150%; /* 21px */
 .whymantarlo_main .image_area .img-wrapper img{
   top: 0px;
   position: absolute;
-  right: 0
+  right: 0;
 }
 
 
@@ -1084,7 +1075,10 @@ gap: 20px;
 
 
 .cta .cta_wrapper{
-  padding: 130px 100px;
+  padding-top:  130px;
+  padding-bottom: 100px;
+  padding-left: 100px;
+  padding-right: 100px;
   display: flex;
   flex-direction: column;
   gap: 60px;
@@ -1193,6 +1187,10 @@ line-height: 150%; /* 21px */
 }
 
 
+.features2_mainsection  .shape_master_img_wrapper img{
+  width: 100%;
+}
+
 
 /* Responsive code begins here */
 
@@ -1201,16 +1199,154 @@ line-height: 150%; /* 21px */
 
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1020px) {
+
+
+  .cta_wrapper{
+    padding: 50px;
+  }
+   .features2_wrapper{
+    padding: 80px  60px ;
+
+
+  }
+
+  .navbar_wrapper {
+    padding: 20px 60px;
+  }
   .home_banner_wrapper{
+    display: flex;
+    flex-direction: column;
+    padding: 70px 60px;
 
   }
+
+
+  .features_wrapper{
+  
+    padding: 50px 
+  
+  
   }
 
-/* @media screen and (max-width: 576px) {
+
+
+  .mantarlo_section .whymantarlo_wrapper{
+    padding-top: 160px;
+    padding-left: 60px;
+    position: relative;
+  }
+  .mantarlo_section .whymantarlo_wrapper .card_area{
+    padding-right: 60px;
+  }
+  
+
+  .features2_wrapper .features2_mainsection{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .features_wrapper .features_main{
+    display: flex;
+    flex-direction: column;
 
   }
-} */
+
+  .carousal{
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .whymantarlo_main .image_area .img-wrapper img{
+    position: relative;
+  }
+
+  .whymantarlo_wrapper .whymantarlo_main{
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  .circle_component{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .metricslider_wrapper .percentage_grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      gap: 0px 0px;
+      grid-auto-flow: row;
+      grid-template-areas:
+        ". ."
+        ". .";
+    
+    
+  }
+
+
+   .metricslider_wrapper {
+ 
+    padding: 70px 50px ;
+
+  }
+
+  .footer_wrapper .footer_links{
+    display: flex;
+    justify-content: space-between;
+    color: #FFF;
+    align-items: center;
+    flex-direction: column;
+    gap:20px
+  }
+
+  .footer_wrapper .footer_links .mid {
+    margin-right: 0;
+  }
+
+  .cta_wrapper .cta_mainHeading{
+    font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: 120%;
+    
+  }
+
+  .whymantarlo_wrapper .biggroupedicon img{
+    min-width: 429.81px;
+  min-height: 416.994px;
+  top: 5%;
+  left: 0%;
+  opacity: 0.1;
+  z-index: 0.3;
+  }
+
+
+
+  }
+
+ @media screen and (max-width: 768px) {
+
+
+   .metricslider_wrapper .percentage_grid {  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "."
+    "."
+    "."
+    ".";
+}
+
+
+
+
+  }
+
 
 /* @media screen and (max-width: 375px) {
 
