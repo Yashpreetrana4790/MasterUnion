@@ -1479,6 +1479,15 @@ font-size: 14px;
 
 
 @media screen and (max-width: 640px) {
+  .home_banner_wrapper .text_wrapper>p{
+    text-align: center;
+
+
+  }
+
+  .home_banner_wrapper .text_wrapper>h1{
+    text-align: center;
+  }
 
     .whymantarlo_wrapper .biggroupedicon img{
     min-width: 280.81px;
